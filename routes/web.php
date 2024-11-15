@@ -5,9 +5,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::view(uri: '/', view: 'index')->name(name: 'home');
 
-Route::view(uri: 'A-propos', view: 'Pages.apropos')->name(name: 'apropos');
+Route::view(uri: 'coaching', view: 'Pages.coaching')->name(name: 'coaching');
 
-Route::view(uri: 'soins', view: 'Pages.soins')->name(name: 'soins');
+Route::view(uri: 'massotherapie', view: 'Pages.massotherapie')->name(name: 'massotherapie');
 
 Route::view(uri: 'contact', view: 'Pages.contact')->name(name: 'contact');
 
