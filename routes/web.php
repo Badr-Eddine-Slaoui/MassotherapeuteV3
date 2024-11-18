@@ -12,3 +12,7 @@ Route::view(uri: 'massotherapie', view: 'Pages.massotherapie')->name(name: 'mass
 Route::view(uri: 'contact', view: 'Pages.contact')->name(name: 'contact');
 
 Route::post(uri:'contact/store', action:[ContactController::class ,'store'])->name(name:'contact.store');
+
+Route::get('/sitemap.xml', function () {
+    return response()->file(public_path('sitemap.xml'))->headers('Content-Type', 'application/xml');
+});

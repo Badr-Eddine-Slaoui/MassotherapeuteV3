@@ -3,6 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="title" content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
+        <meta name="description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
+        <meta name="keywords" content="massothérapie, massage thérapeutique, massage relaxant, massage sportif, massage anti-stress, relaxation, soins corporels, thérapie, bien-être, douleur musculaire, détente">
+        <meta name="author" content="Said Rahati">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="fr">
+        <meta name="revisit-after" content="1 days">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://yourwebsite.com/your-page-url">
+        <meta property="og:title"content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
+        <meta property="og:description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
+        <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+        <meta property="og:site_name" content="Said Rahati">
+        <meta property="og:locale" content="fr_CH">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://yourwebsite.com/your-page-url">
+        <meta name="twitter:title"content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
+        <meta name="twitter:description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
+        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.jpg">
+        <meta name="twitter:site" content="@YourTwitterHandle">
+        <meta name="twitter:creator" content="@YourTwitterHandle">
+        <link rel="canonical" href="{{ url()->current() }}">
 
         <title>Said Rahati - Massothérapie</title>
 
@@ -154,5 +176,22 @@
                 <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-bl-3xl xs:h-1"></div>
             </div>
         @endif
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Said Rahati",
+              "description": "Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.",
+              "url": "https://yourwebsite.com/your-page-url",
+              "logo": "https://yourwebsite.com/images/logo.png",
+              "image": "https://yourwebsite.com/images/og-image.jpg",
+              "telephone": "+1234567890",
+              "sameAs": [
+                "https://www.facebook.com/YourBusiness",
+                "https://twitter.com/YourBusiness",
+                "https://www.instagram.com/YourBusiness"
+              ]
+            }
+        </script>
     </body>
 </html>

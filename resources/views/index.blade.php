@@ -3,6 +3,28 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="title" content="Said Rahati Massothérapeute Et Coach Sportif | Votre Guide pour Bien-être et Fitness">
+        <meta name="description" content="Découvrez nos services de massage thérapeutique, relaxant, sportif, anti-stress, et coaching personnel pour la perte de poids, prise de masse, et remise en forme. Contactez-nous pour en savoir plus.">
+        <meta name="keywords" content="said rahati, massothérapeute, coach sportif, massage sportif, massage anti-stress, coaching sportif, perte de poids, prise de masse, remise en forme, fitness, bien-être">
+        <meta name="author" content="Said Rahati">
+        <meta name="robots" content="index, follow">
+        <meta name="language" content="fr">
+        <meta name="revisit-after" content="1 days">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://yourwebsite.com/your-page-url">
+        <meta property="og:title"content="Said Rahati Massothérapeute Et Coach Sportif | Votre Guide pour Bien-être et Fitness">
+        <meta property="og:description" content="Découvrez nos services de massage thérapeutique, relaxant, sportif, anti-stress, et coaching personnel pour la perte de poids, prise de masse, et remise en forme. Contactez-nous pour en savoir plus.">
+        <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+        <meta property="og:site_name" content="Said Rahati">
+        <meta property="og:locale" content="fr_CH">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://yourwebsite.com/your-page-url">
+        <meta name="twitter:title"content="Said Rahati Massothérapeute Et Coach Sportif | Votre Guide pour Bien-être et Fitness">
+        <meta name="twitter:description" content="Découvrez nos services de massage thérapeutique, relaxant, sportif, anti-stress, et coaching personnel pour la perte de poids, prise de masse, et remise en forme. Contactez-nous pour en savoir plus.">
+        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.jpg">
+        <meta name="twitter:site" content="@YourTwitterHandle">
+        <meta name="twitter:creator" content="@YourTwitterHandle">
+        <link rel="canonical" href="{{ url()->current() }}">
 
         <title>Said Rahati - Accueil</title>
 
@@ -213,5 +235,22 @@
                 <div class="alert-time-bar w-full bg-white opacity-50 h-2 absolute bottom-0 rounded-bl-3xl xs:h-1"></div>
             </div>
         @endif
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Said Rahati",
+              "description": "Découvrez nos services de massage thérapeutique, relaxant, sportif, anti-stress, et coaching personnel pour la perte de poids, prise de masse, et remise en forme. Contactez-nous pour en savoir plus.",
+              "url": "https://yourwebsite.com/your-page-url",
+              "logo": "https://yourwebsite.com/images/logo.png",
+              "image": "https://yourwebsite.com/images/og-image.jpg",
+              "telephone": "+1234567890",
+              "sameAs": [
+                "https://www.facebook.com/YourBusiness",
+                "https://twitter.com/YourBusiness",
+                "https://www.instagram.com/YourBusiness"
+              ]
+            }
+        </script>
     </body>
 </html>
