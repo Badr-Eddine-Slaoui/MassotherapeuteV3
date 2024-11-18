@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Accueil</title>
+        <title>Said Rahati - Accueil</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -64,11 +64,12 @@
                 <h2 class="text-5xl my-5 font-[300] xs:text-xs sm:text-xl md:text-3xl lg:text-4xl">Massothérapie</h2>
                 <p class="text-[20px] my-10 xs:text-[8px] sm:text-[12px] md:text-[16px] lg:text-[18px]">
                     Voici en quelques lignes les séances de massothérapie que je vous propose. N'hésitez pas à cliquer pour découvrir davantage, et à me contacter pour plus d'informations.</p>
-                <div class="grid grid-rows-1 grid-cols-3 gap-x-5 my-5 xs:w-2/3 xs:m-auto xs:grid-cols-1 xs:gap-y-10 sm:w-full sm:grid-cols-3 sm:gap-y-5 md:w-full md:grid-cols-3 md:gap-y-5">
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative xs:h-[20vh] sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                <div class="grid grid-rows-1 grid-cols-2 gap-x-5 my-5 xs:w-2/3 xs:m-auto xs:grid-cols-1 xs:gap-y-10 sm:w-full sm:grid-cols-2 sm:gap-y-5 md:w-full md:grid-cols-2 md:gap-y-5">
+                    <div class="bg-[#cd3126] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Massage thérapeutique </p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Massage</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">thérapeutique</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Le massage thérapeutique combine des techniques comme l’effleurage et le pétrissage pour agir en profondeur sur les muscles, tendons, et fascias. Il est utilisé pour soulager des douleurs ciblées et rétablir l'équilibre du corps.</p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
@@ -76,10 +77,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative xs:h-[20vh] sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                    <div class="bg-[#117086] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Massage relaxant</p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Massage</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">relaxant</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Ce type de massage favorise la détente en utilisant des mouvements doux et harmonieux tels que l’effleurage et le pétrissage. Il soulage les tensions musculaires, améliore la circulation sanguine, et procure une sensation de bien-être global.</p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-relaxant">
@@ -87,10 +89,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative xs:h-[20vh] sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                    <div class="bg-[#11862a] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Massage sportif</p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Massage</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">sportif</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Conçu pour les sportifs, ce massage prépare le corps à l'effort et aide à la récupération. Il vise à préserver la mobilité articulaire et à réduire les douleurs musculo-articulaires dues à l'activité physique.</p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-sportif">
@@ -98,10 +101,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative mx-auto xs:w-full xs:h-[20vh] sm:col-span-3 sm:w-1/3 sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                    <div class="bg-[#861178] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Massage anti-stress (Trigger Point)</p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Massage</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">anti-stress</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Ce massage se concentre sur les points de tension dans les muscles, soulageant les douleurs musculaires et articulaires. Particulièrement bénéfique pour les personnes souffrant de douleurs chroniques, il relâche les "nœuds" musculaires tenaces</p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-anti-stress">
@@ -113,11 +117,12 @@
                 <h2 class="text-5xl mt-20 mb-5 font-[300] xs:text-xs sm:text-xl md:text-3xl lg:text-4xl">Personal training</h2>
                 <p class="text-[20px] my-10 xs:text-[8px] sm:text-[12px] md:text-[16px] lg:text-[18px]">
                     Voici en quelques lignes les séances de coaching que je vous propose. N’hésitez pas à cliquer dessus pour en savoir davantage, et à me contacter pour plus d’informations.</p>
-                <div class="grid grid-rows-1 grid-cols-3 gap-x-5 my-5 xs:w-2/3 xs:m-auto xs:grid-cols-1 xs:gap-y-10 sm:w-full sm:grid-cols-3 sm:gap-y-0 md:w-full md:grid-cols-3 md:gap-y-0">
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative xs:h-[20vh] sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                <div class="grid grid-rows-1 grid-cols-2 gap-x-5 my-5 xs:w-2/3 xs:m-auto xs:grid-cols-1 xs:gap-y-10 sm:w-full sm:grid-cols-2 sm:gap-y-5 md:w-full md:grid-cols-2 md:gap-y-5">
+                    <div class="bg-[#484b4b] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La perte du poids</p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">La perte</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">du poids</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La perte de poids durable consiste à adopter une alimentation équilibrée et une activité physique régulière, avec des conseils professionnels pour éviter les régimes dangereux et l'effet yo-yo.</p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#perte-poids">
@@ -125,10 +130,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative xs:h-[20vh] sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                    <div class="bg-[#800000] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Prise de masse</p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Prise</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">de masse</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La prise de masse musculaire nécessite un entraînement régulier et un apport calorique suffisant, soutenus par un programme nutritionnel et d'entraînement adaptés </p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#prise-masse">
@@ -136,10 +142,11 @@
                             </a>
                         </div>
                     </div>
-                    <div class="bg-HomeBg bg-cover bg-no-repeat text-center h-[40vh] relative xs:h-[20vh] sm:h-[25vh] md:h-[30vh]">
-                        <div class="w-full h-full bg-black text-white bg-opacity-60 flex items-center justify-center relative">
+                    <div class="bg-[#ffbb00] px-10 text-center h-[40vh] relative xs:h-[20vh] xs:w-full xs:px-4 sm:px-6 sm:w-1/2 sm:mx-auto sm:col-span-2 sm:h-[25vh] md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
+                        <div class="w-full h-full text-white flex items-center justify-center relative">
                             <div class="w-11/12">
-                                <p class="text-[18px] font-semibold mb-5 capitalize xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La remise en forme</p>
+                                <p class="text-[18px] font-semibold capitalize xs:text-[9px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">La remise</p>
+                                <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">en forme</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La remise en forme varie selon vos objectifs et condition physique, en combinant exercices cardio, renforcement musculaire et flexibilité pour des résultats optimaux.</p>
                             </div>
                             <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#remise-forme">

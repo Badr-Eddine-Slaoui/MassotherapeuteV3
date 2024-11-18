@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Coaching</title>
+        <title>Said Rahati - Coaching</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -31,8 +31,8 @@
         </header>
         <section id="perte-poids" class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
             <div class="w-5/6 mx-auto">
-                <h1 class="font-[300] text-6xl mt-10 mb-28 xs:text-xs xs:mb-14 md:text-2xl lg:text-3xl">Coaching</h1>
-                <div class="w-full grid grid-rows-1 grid-cols-2 my-32 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
+                <h1 class="font-[300] text-6xl mt-10 xs:text-xs xs:mb-14 md:text-2xl lg:text-3xl">Coaching</h1>
+                <div class="w-full grid grid-rows-1 grid-cols-2 gap-y-32 gap-x-8 xs:my-5 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2 md:my-32">
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl xs:mb-2">La perte du poids</p>
                         <p class="text-[16px] text-[#477180] leading-[1.6] xs:text-[10px] sm:text-[11px] md:text-[14px] lg:text-[16px]">Absolument ! La perte de poids durable repose sur de saines habitudes plutôt que sur des régimes extrêmes. Voici quelques conseils pour vous aider dans cette démarche :
@@ -51,16 +51,16 @@
                         <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700 xs:text-[10px] sm:text-[11px] xs:px-5 xs:py-2 xs:mt-[10%] md:text-[14px] lg:text-[16px]"><a class="text-decoration-none" href="{{ route('contact') }}">Contactez-nous</a></button>
                     </div>
                     <div class="flex items-center">
-                        <img class="shadow-center-gray" src="{{ asset('Images/Soins1.jpg') }}" alt="Apropos1">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full" src="{{ asset('Images/coaching-1.jpg') }}" alt="La perte du poids image">
                     </div>
                 </div>
             </div>
         </section>
         <section id="prise-masse" class="w-full pt-1 bg-[#f5fafd] pb-20 xs:pb-5 xs:min-h-[50vh]">
             <div class="w-5/6 mx-auto">
-                <div class="w-full grid grid-rows-1 grid-cols-2 my-32 gap-x-8 xs:grid-cols-1 xs:gap-y-5 sm:grid-cols-2">
+                <div class="w-full grid grid-rows-1 grid-cols-2 gap-x-8 xs:my-5 xs:grid-cols-1 xs:gap-y-5 sm:grid-cols-2 md:my-32">
                     <div class="flex items-center">
-                        <img class="shadow-center-gray" src="{{ asset('Images/Soins2.jpg') }}" alt="Apropos1">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full" src="{{ asset('Images/coaching-2.jpg') }}" alt="Prise de masse image">
                     </div>
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl">Prise de masse</p>
@@ -86,7 +86,7 @@
         </section>
         <section id="remise-forme" class="w-full pt-1 pb-20 xs:pb-5 xs:min-h-[50vh]">
             <div class="w-5/6 mx-auto">
-                <div class="w-full grid grid-rows-1 grid-cols-2 my-32 gap-y-32 gap-x-8 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2">
+                <div class="w-full grid grid-rows-1 grid-cols-2 gap-y-32 gap-x-8 xs:my-5 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-2 md:my-32">
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl xs:mb-2">La remise en forme</p>
                         <p class="text-[16px] text-[#477180] leading-[1.6] xs:text-[10px] sm:text-[11px] md:text-[14px] lg:text-[16px]">La remise en forme consiste à améliorer progressivement sa condition physique et son bien-être général. Voici les étapes clés pour une approche complète :
@@ -111,7 +111,7 @@
                         <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700 xs:text-[10px] sm:text-[11px] xs:px-5 xs:py-2 xs:mt-[10%] md:text-[14px] lg:text-[16px]"><a class="text-decoration-none" href="{{ route('contact') }}">Contactez-nous</a></button>
                     </div>
                     <div class="flex items-center">
-                        <img class="shadow-center-gray" src="{{ asset('Images/Soins1.jpg') }}" alt="Apropos1">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full" src="{{ asset('Images/coaching-1.jpg') }}" alt="La remise en forme image">
                     </div>
                 </div>
             </div>

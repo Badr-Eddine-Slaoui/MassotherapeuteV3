@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Massothérapie</title>
+        <title>Said Rahati - Massothérapie</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -43,7 +43,7 @@
                         <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700 xs:text-[10px] sm:text-[11px] xs:px-5 xs:py-2 xs:mt-[10%] md:text-[14px] lg:text-[16px]"><a class="text-decoration-none" href="{{ route('contact') }}">Contactez-nous</a></button>
                     </div>
                     <div class="flex items-center">
-                        <img class="mx-auto shadow-center-gray xs:w-6/12 sm:w-8/12 md:w-9/12 lg:w-6/12 xl:w-5/12" src="{{ asset('Images/massotherapie-1.jpg') }}" alt="Massage thérapeutique">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage thérapeutique image">
                     </div>
                 </div>
             </div>
@@ -52,7 +52,7 @@
             <div class="w-5/6 mx-auto">
                 <div class="w-full grid grid-rows-1 grid-cols-2 gap-x-8 xs:my-5 xs:grid-cols-1 xs:gap-y-5 sm:grid-cols-2 md:my-32">
                     <div class="flex items-center">
-                        <img class="mx-auto shadow-center-gray xs:w-6/12 sm:w-8/12 md:w-9/12 lg:w-6/12 xl:w-5/12" src="{{ asset('Images/massotherapie-2.jpg') }}" alt="Massage relaxant">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage relaxant image">
                     </div>
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl">Massage relaxant</p>
@@ -76,7 +76,7 @@
                         <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700 xs:text-[10px] sm:text-[11px] xs:px-5 xs:py-2 xs:mt-[10%] md:text-[14px] lg:text-[16px]"><a class="text-decoration-none" href="{{ route('contact') }}">Contactez-nous</a></button>
                     </div>
                     <div class="flex items-center">
-                        <img class="mx-auto shadow-center-gray xs:w-6/12 sm:w-8/12 md:w-9/12 lg:w-6/12 xl:w-5/12" src="{{ asset('Images/massotherapie-1.jpg') }}" alt="Massage sportif">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage sportif image">
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
             <div class="w-5/6 mx-auto">
                 <div class="w-full grid grid-rows-1 grid-cols-2 gap-x-8 xs:my-5 xs:grid-cols-1 xs:gap-y-5 sm:grid-cols-2 md:my-32">
                     <div class="flex items-center">
-                        <img class="mx-auto shadow-center-gray xs:w-6/12 sm:w-8/12 md:w-9/12 lg:w-6/12 xl:w-5/12" src="{{ asset('Images/massotherapie-2.jpg') }}" alt="Massage anti-stress">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage anti-stress (Trigger Point) image">
                     </div>
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl">Massage anti-stress (Trigger Point)</p>
