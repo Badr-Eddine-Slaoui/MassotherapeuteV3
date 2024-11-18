@@ -12,7 +12,7 @@ export default {
             }
         },
         backgroundImage: {
-            'HomeBg': "url('/public/Images/massotherapie.jpg')",
+            'HomeBg': "url('/public/Images/massotherapie.webp')",
         },
     },
     plugins: [],

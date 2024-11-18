@@ -14,14 +14,14 @@
         <meta property="og:url" content="https://yourwebsite.com/your-page-url">
         <meta property="og:title"content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
         <meta property="og:description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
-        <meta property="og:image" content="https://yourwebsite.com/images/og-image.jpg">
+        <meta property="og:image" content="https://yourwebsite.com/images/og-image.webp">
         <meta property="og:site_name" content="Said Rahati">
         <meta property="og:locale" content="fr_CH">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:url" content="https://yourwebsite.com/your-page-url">
         <meta name="twitter:title"content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
         <meta name="twitter:description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
-        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.jpg">
+        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.webp">
         <meta name="twitter:site" content="@YourTwitterHandle">
         <meta name="twitter:creator" content="@YourTwitterHandle">
         <link rel="canonical" href="{{ url()->current() }}">
@@ -32,6 +32,8 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+        <link rel="icon" href="{{ asset('Images/icon.webp') }}" type="image/x-icon">
+        <link rel="apple-touch-icon" href="{{ asset('Images/icon.webp') }}">
 
         <!-- Styles / Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -40,7 +42,7 @@
     <body>
         <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
             <div class="w-1/5">
-                <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.png') }}" alt="Logo"></a>
+                <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.webp') }}" alt="Logo"></a>
             </div>
             <nav class="w-2/5 xs:w-8/12 sm:w-4/6 md:w-8/12 lg:w-7/12 xl:w-5/12">
                 <ul class="ms-auto flex justify-between items-center">
@@ -65,7 +67,7 @@
                         <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700 xs:text-[10px] sm:text-[11px] xs:px-5 xs:py-2 xs:mt-[10%] md:text-[14px] lg:text-[16px]"><a class="text-decoration-none" href="{{ route('contact') }}">Contactez-nous</a></button>
                     </div>
                     <div class="flex items-center">
-                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage thérapeutique image">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.webp') }}" alt="Massage thérapeutique image">
                     </div>
                 </div>
             </div>
@@ -74,7 +76,7 @@
             <div class="w-5/6 mx-auto">
                 <div class="w-full grid grid-rows-1 grid-cols-2 gap-x-8 xs:my-5 xs:grid-cols-1 xs:gap-y-5 sm:grid-cols-2 md:my-32">
                     <div class="flex items-center">
-                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage relaxant image">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.webp') }}" alt="Massage relaxant image">
                     </div>
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl">Massage relaxant</p>
@@ -98,7 +100,7 @@
                         <button class="text-white bg-[#03a9f4] px-8 py-4 block m-auto mt-[15%] hover:bg-cyan-700 xs:text-[10px] sm:text-[11px] xs:px-5 xs:py-2 xs:mt-[10%] md:text-[14px] lg:text-[16px]"><a class="text-decoration-none" href="{{ route('contact') }}">Contactez-nous</a></button>
                     </div>
                     <div class="flex items-center">
-                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage sportif image">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.webp') }}" alt="Massage sportif image">
                     </div>
                 </div>
             </div>
@@ -107,7 +109,7 @@
             <div class="w-5/6 mx-auto">
                 <div class="w-full grid grid-rows-1 grid-cols-2 gap-x-8 xs:my-5 xs:grid-cols-1 xs:gap-y-5 sm:grid-cols-2 md:my-32">
                     <div class="flex items-center">
-                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.jpg') }}" alt="Massage anti-stress (Trigger Point) image">
+                        <img class="shadow-center-gray mx-auto xs:w-9/12 sm:w-full lg:w-11/12 xl:w-8/12" src="{{ asset('Images/massotherapie-3.webp') }}" alt="Massage anti-stress (Trigger Point) image">
                     </div>
                     <div>
                         <p class="text-4xl font-semibold mb-5 xs:text-xs sm:text-xl md:text-xl">Massage anti-stress (Trigger Point)</p>
@@ -183,8 +185,8 @@
               "name": "Said Rahati",
               "description": "Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.",
               "url": "https://yourwebsite.com/your-page-url",
-              "logo": "https://yourwebsite.com/images/logo.png",
-              "image": "https://yourwebsite.com/images/og-image.jpg",
+              "logo": "https://yourwebsite.com/images/logo.webp",
+              "image": "https://yourwebsite.com/images/og-image.webp",
               "telephone": "+1234567890",
               "sameAs": [
                 "https://www.facebook.com/YourBusiness",
