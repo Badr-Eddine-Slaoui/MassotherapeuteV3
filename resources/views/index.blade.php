@@ -42,7 +42,7 @@
     <body>
         <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
             <div class="w-1/5">
-                <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.webp') }}" alt="Logo"></a>
+                <a loading="lazy" href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.webp') }}" alt="Logo"></a>
             </div>
             <nav class="w-2/5 xs:w-8/12 sm:w-4/6 md:w-8/12 lg:w-7/12 xl:w-5/12">
                 <ul class="ms-auto flex justify-between items-center">
@@ -59,13 +59,13 @@
                     <div class="flex h-[35vh] mt-40 xs:h-[25vh] xs:mt-0 sm:h-[36vh] md:h-[35vh] md:mt-16">
                         <h1 class="text-[3.375em] w-2/3 font-[300] leading-[1.23] flex justify-center items-center xs:text-[0.8em] sm:text-[1.6em] md:text-[2em] lg:text-[3em]">MASSOTHÉRAPEUTE COACH SPORTIF</h1>
                         <div class="w-2/5 my-auto xs:w-full">
-                            <button class="block mx-auto bg-[#03a9f4] py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a href="{{ route('massotherapie') }}">- massothérapie -</a></button>
-                            <button class="block mx-auto border-2  border-white py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a href="{{ route('contact') }}">- contactez-nous -</a></button>
+                            <button class="block mx-auto bg-[#03a9f4] py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a loading="lazy" href="{{ route('massotherapie') }}">- massothérapie -</a></button>
+                            <button class="block mx-auto border-2  border-white py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[7px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a loading="lazy" href="{{ route('contact') }}">- contactez-nous -</a></button>
                         </div>
                     </div>
                     <h2 class="w-1/2 text-3xl font-[300] m-auto leading-[1.23] uppercase xs:text-xs xs:mt-0 sm:text-sm sm:mt-0 md:text-xl lg:text-3xl lg:mt-5">Said Rahati</h2>
                     <svg class="w-1/12 m-auto mt-20 mb-10 xs:mt-5 sm:mt-10 md:mt-14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="map-marker" viewBox="0 0 512 545.5"><path fill="white" d="M256 80c79.336 0 144 64.664 144 144 0 22.5-9.116 48.313-21.5 76.5s-28.314 58.098-44.5 86C301.628 442.306 269 489 269 489l-13 19-13-19s-32.628-46.694-65-102.5c-16.186-27.902-32.116-57.813-44.5-86S112 246.5 112 224c0-79.336 64.664-144 144-144zm0 32c-62.04 0-112 49.96-112 112 0 12.844 6.884 37.06 18.5 63.5s27.686 55.738 43.5 83c25.155 43.364 40.74 66.3 50 80 9.26-13.7 24.845-36.636 50-80 15.815-27.262 31.884-56.56 43.5-83S368 236.844 368 224c0-62.04-49.96-112-112-112zm0 80c17.673 0 32 14.327 32 32s-14.327 32-32 32-32-14.327-32-32 14.327-32 32-32z"></path></svg>
-                    <a href="#apropos"><i class="text-3xl mt-40 fa-solid fa-chevron-down animate-bounce-100 xs:text-xs xs:mt-0 sm:text-sm sm:mt-1 md:text-xl md:mt-2 lg:text-2xl lg:mt-3"></i></a>
+                    <a loading="lazy" href="#apropos"><i class="text-3xl mt-40 fa-solid fa-chevron-down animate-bounce-100 xs:text-xs xs:mt-0 sm:text-sm sm:mt-1 md:text-xl md:mt-2 lg:text-2xl lg:mt-3"></i></a>
                 </div>
             </div>
         </main>

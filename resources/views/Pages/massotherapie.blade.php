@@ -42,7 +42,7 @@
     <body>
         <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
             <div class="w-1/5">
-                <a href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.webp') }}" alt="Logo"></a>
+                <a loading="lazy" href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.webp') }}" alt="Logo"></a>
             </div>
             <nav class="w-2/5 xs:w-8/12 sm:w-4/6 md:w-8/12 lg:w-7/12 xl:w-5/12">
                 <ul class="ms-auto flex justify-between items-center">
