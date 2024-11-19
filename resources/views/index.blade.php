@@ -96,10 +96,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">thérapeutique</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Le massage thérapeutique combine des techniques comme l’effleurage et le pétrissage pour agir en profondeur sur les muscles, tendons, et fascias. Il est utilisé pour soulager des douleurs ciblées et rétablir l'équilibre du corps.</p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                     <div class="bg-[#117086] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
                         <div class="w-full h-full text-white flex items-center justify-center relative">
@@ -108,10 +108,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">relaxant</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Ce type de massage favorise la détente en utilisant des mouvements doux et harmonieux tels que l’effleurage et le pétrissage. Il soulage les tensions musculaires, améliore la circulation sanguine, et procure une sensation de bien-être global.</p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-relaxant">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                     <div class="bg-[#11862a] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
                         <div class="w-full h-full text-white flex items-center justify-center relative">
@@ -120,10 +120,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">sportif</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Conçu pour les sportifs, ce massage prépare le corps à l'effort et aide à la récupération. Il vise à préserver la mobilité articulaire et à réduire les douleurs musculo-articulaires dues à l'activité physique.</p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-sportif">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                     <div class="bg-[#861178] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
                         <div class="w-full h-full text-white flex items-center justify-center relative">
@@ -132,10 +132,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">anti-stress</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Ce massage se concentre sur les points de tension dans les muscles, soulageant les douleurs musculaires et articulaires. Particulièrement bénéfique pour les personnes souffrant de douleurs chroniques, il relâche les "nœuds" musculaires tenaces</p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-anti-stress">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                 </div>
                 <h2 class="text-5xl mt-20 mb-5 font-[300] xs:text-xs sm:text-xl md:text-3xl lg:text-4xl">Personal training</h2>
@@ -149,10 +149,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">du poids</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La perte de poids durable consiste à adopter une alimentation équilibrée et une activité physique régulière, avec des conseils professionnels pour éviter les régimes dangereux et l'effet yo-yo.</p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#perte-poids">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                     <div class="bg-[#800000] text-center h-[40vh] relative xs:h-[20vh] xs:px-4 sm:h-[25vh] sm:px-6 md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
                         <div class="w-full h-full text-white flex items-center justify-center relative">
@@ -161,10 +161,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">de masse</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La prise de masse musculaire nécessite un entraînement régulier et un apport calorique suffisant, soutenus par un programme nutritionnel et d'entraînement adaptés </p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#prise-masse">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                     <div class="bg-[#ffbb00] px-10 text-center h-[40vh] relative xs:h-[20vh] xs:w-full xs:px-4 sm:px-6 sm:w-1/2 sm:mx-auto sm:col-span-2 sm:h-[25vh] md:h-[30vh] md:px-8 lg:px-10 lg:h-[35vh] xl:h-[40vh]">
                         <div class="w-full h-full text-white flex items-center justify-center relative">
@@ -173,10 +173,10 @@
                                 <p class="text-[18px] font-semibold uppercase tracking-[0.3em] xs:text-[10px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">en forme</p>
                                 <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La remise en forme varie selon vos objectifs et condition physique, en combinant exercices cardio, renforcement musculaire et flexibilité pour des résultats optimaux.</p>
                             </div>
-                            <a class="w-full h-full bg-cyan-400 absolute bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#remise-forme">
-                                <svg class="w-1/6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
-                            </a>
                         </div>
+                        <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique ">
+                            <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
+                        </a>
                     </div>
                 </div>
             </div>
