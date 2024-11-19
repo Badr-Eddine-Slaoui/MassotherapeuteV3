@@ -5,23 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="title" content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
         <meta name="description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
-        <meta name="keywords" content="massothérapie, massage thérapeutique, massage relaxant, massage sportif, massage anti-stress, relaxation, soins corporels, thérapie, bien-être, douleur musculaire, détente">
+        <meta name="keywords" content="Massothérapie, Said Rahati massothérapeute, Massage thérapeutique, Massage relaxant, Massage sportif, Massage anti-stress, Soulager les tensions, Améliorer la circulation sanguine, Détente et relaxation, Réserver une séance de massage, Thérapie par le massage, Bienfaits de la massothérapie, Techniques de massage, Réduction stress par le massage, Massage pour douleurs musculaires, Massage pour récupération sportive, Massothérapie professionnelle">
         <meta name="author" content="Said Rahati">
         <meta name="robots" content="index, follow">
         <meta name="language" content="fr">
         <meta name="revisit-after" content="1 days">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://yourwebsite.com/your-page-url">
+        <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:title"content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
         <meta property="og:description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
-        <meta property="og:image" content="https://yourwebsite.com/images/og-image.webp">
+        <meta property="og:image" content="{{ asset('Images/À propos Pic.webp') }}">
         <meta property="og:site_name" content="Said Rahati">
         <meta property="og:locale" content="fr_CH">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:url" content="https://yourwebsite.com/your-page-url">
+        <meta name="twitter:url" content="{{ url()->current() }}">
         <meta name="twitter:title"content="Said Rahati Massothérapeute Et Coach Sportif | Massothérapie">
         <meta name="twitter:description" content="Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.">
-        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.webp">
+        <meta name="twitter:image" content="{{ asset('Images/À propos Pic.webp') }}">
         <meta name="twitter:site" content="@YourTwitterHandle">
         <meta name="twitter:creator" content="@YourTwitterHandle">
         <link rel="canonical" href="{{ url()->current() }}">
@@ -184,9 +184,9 @@
               "@type": "Person",
               "name": "Said Rahati",
               "description": "Découvrez nos massages thérapeutiques, relaxants, sportifs, et anti-stress pour soulager les tensions, améliorer la circulation et favoriser la détente. Réservez une séance avec Said Rahati Massothérapie.",
-              "url": "https://yourwebsite.com/your-page-url",
-              "logo": "https://yourwebsite.com/images/logo.webp",
-              "image": "https://yourwebsite.com/images/og-image.webp",
+              "url": "{{ url()->current() }}",
+              "logo": "{{ asset('Images/Logo.webp') }}",
+              "image": {{ asset('Images/À propos Pic.webp') }},
               "telephone": "+1234567890",
               "sameAs": [
                 "https://www.facebook.com/YourBusiness",

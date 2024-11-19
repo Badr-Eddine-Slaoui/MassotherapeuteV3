@@ -5,23 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="title" content="Said Rahati Massothérapeute Et Coach Sportif | Contactez-nous">
         <meta name="description" content="Contactez-nous pour toute demande d'information, service de massothérapie, ou coaching. Nous sommes à votre disposition pour répondre à vos besoins.">
-        <meta name="keywords" content="contact, massage, coaching, Said Rahati, service client, adresse, téléphone, demande d'information">
+        <meta name="keywords" content="Contact Said Rahati, Contact massothérapeute, Contact coach sportif, Demande d’information massothérapie, Demande d’information coaching sportif, Réserver une séance de massage, Prendre rendez-vous avec Said Rahati, Services de coaching et massothérapie">
         <meta name="author" content="Said Rahati">
         <meta name="robots" content="index, follow">
         <meta name="language" content="fr">
         <meta name="revisit-after" content="1 days">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://yourwebsite.com/your-page-url">
+        <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:title"content="Said Rahati Massothérapeute Et Coach Sportif | Contactez-nous">
         <meta property="og:description" content="Contactez-nous pour toute demande d'information, service de massothérapie, ou coaching. Nous sommes à votre disposition pour répondre à vos besoins.">
-        <meta property="og:image" content="https://yourwebsite.com/images/og-image.webp">
+        <meta property="og:image" content="{{ asset('Images/À propos Pic.webp') }}">
         <meta property="og:site_name" content="Said Rahati">
         <meta property="og:locale" content="fr_CH">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:url" content="https://yourwebsite.com/your-page-url">
+        <meta name="twitter:url" content="{{ url()->current() }}">
         <meta name="twitter:title"content="Said Rahati Massothérapeute Et Coach Sportif | Contactez-nous">
         <meta name="twitter:description" content="Contactez-nous pour toute demande d'information, service de massothérapie, ou coaching. Nous sommes à votre disposition pour répondre à vos besoins.">
-        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.webp">
+        <meta name="twitter:image" content="{{ asset('Images/À propos Pic.webp') }}">
         <meta name="twitter:site" content="@YourTwitterHandle">
         <meta name="twitter:creator" content="@YourTwitterHandle">
         <link rel="canonical" href="{{ url()->current() }}">
@@ -116,9 +116,9 @@
               "@type": "Person",
               "name": "Said Rahati",
               "description": "Contactez-nous pour toute demande d'information, service de massothérapie, ou coaching. Nous sommes à votre disposition pour répondre à vos besoins.",
-              "url": "https://yourwebsite.com/your-page-url",
-              "logo": "https://yourwebsite.com/images/logo.webp",
-              "image": "https://yourwebsite.com/images/og-image.webp",
+              "url": "{{ url()->current() }}",
+              "logo": "{{ asset('Images/Logo.webp') }}",
+              "image": {{ asset('Images/À propos Pic.webp') }},
               "telephone": "+1234567890",
               "sameAs": [
                 "https://www.facebook.com/YourBusiness",

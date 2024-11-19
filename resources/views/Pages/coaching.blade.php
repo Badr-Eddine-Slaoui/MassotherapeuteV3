@@ -5,23 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="title" content="Said Rahati Massothérapeute Et Coach Sportif | Séances De Coaching">
         <meta name="description" content="Découvrez les différents types de séances de coaching sportif proposées par Said Rahati. Améliorez votre condition physique et bien-être grâce à des séances personnalisées adaptées à vos besoins.">
-        <meta name="keywords" content="said rahati, coach sportif, coach personnel, coaching sportif, perte de poids, prise de masse, remise en forme, bien-être, séances personnalisées, amélioration condition physique, relaxation, relaxation musculaire">
+        <meta name="keywords" content="Coaching sportif, Coach sportif personnalisé, Said Rahati coach sportif, Séances de coaching sportif, Améliorer sa condition physique, Bien-être et fitness, Entraînement personnalisé, Coaching pour remise en forme, Plan d’entraînement sur mesure, Coaching perte de poids, Entraînement pour prise de masse, Coaching sportif professionnel, Programme fitness personnalisé, Coach sportif en ligne, Transformation physique avec un coach, Entraînement cardio et musculaire, Plan de remise en forme efficace">
         <meta name="author" content="Said Rahati">
         <meta name="robots" content="index, follow">
         <meta name="language" content="fr">
         <meta name="revisit-after" content="1 days">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://yourwebsite.com/your-page-url">
+        <meta property="og:url" content="{{ url()->current() }}">
         <meta property="og:title"content="Said Rahati Massothérapeute Et Coach Sportif | Séances De Coaching">
         <meta property="og:description" content="Découvrez les différents types de séances de coaching sportif proposées par Said Rahati. Améliorez votre condition physique et bien-être grâce à des séances personnalisées adaptées à vos besoins.">
-        <meta property="og:image" content="https://yourwebsite.com/images/og-image.webp">
+        <meta property="og:image" content="{{ asset('Images/À propos Pic.webp') }}">
         <meta property="og:site_name" content="Said Rahati">
         <meta property="og:locale" content="fr_CH">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:url" content="https://yourwebsite.com/your-page-url">
+        <meta name="twitter:url" content="{{ url()->current() }}">
         <meta name="twitter:title"content="Said Rahati Massothérapeute Et Coach Sportif | Séances De Coaching">
         <meta name="twitter:description" content="Découvrez les différents types de séances de coaching sportif proposées par Said Rahati. Améliorez votre condition physique et bien-être grâce à des séances personnalisées adaptées à vos besoins.">
-        <meta name="twitter:image" content="https://yourwebsite.com/images/twitter-image.webp">
+        <meta name="twitter:image" content="{{ asset('Images/À propos Pic.webp') }}">
         <meta name="twitter:site" content="@YourTwitterHandle">
         <meta name="twitter:creator" content="@YourTwitterHandle">
         <link rel="canonical" href="{{ url()->current() }}">
@@ -202,9 +202,9 @@
               "@type": "Person",
               "name": "Said Rahati",
               "description": "Découvrez les différents types de séances de coaching sportif proposées par Said Rahati. Améliorez votre condition physique et bien-être grâce à des séances personnalisées adaptées à vos besoins.",
-              "url": "https://yourwebsite.com/your-page-url",
-              "logo": "https://yourwebsite.com/images/logo.webp",
-              "image": "https://yourwebsite.com/images/og-image.webp",
+              "url": "{{ url()->current() }}",
+              "logo": "{{ asset('Images/Logo.webp') }}",
+              "image": {{ asset('Images/À propos Pic.webp') }},
               "telephone": "+1234567890",
               "sameAs": [
                 "https://www.facebook.com/YourBusiness",
