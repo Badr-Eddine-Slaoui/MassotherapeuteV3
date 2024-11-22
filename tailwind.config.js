@@ -12,7 +12,9 @@ export default {
             }
         },
         backgroundImage: {
-            'HomeBg': "url('/public/Images/massotherapie.webp')",
+            'HomeBg': "url('/public/Images/coaching.png')",
+            'CoachingBg': "url('/public/Images/coaching.png')",
+            'MassotherapieBg': "url('/public/Images/massotherapie.png')",
         },
     },
     plugins: [],
