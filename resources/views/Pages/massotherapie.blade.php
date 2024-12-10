@@ -14,7 +14,7 @@
 
 @section('content')
     <main class="w-full mt-[15vh] min-h-[150vh] bg-MassotherapieBg bg-no-repeat bg-center bg-cover relative xs:min-h-[40vh] xs:mt-[6vh] sm:min-h-[60vh] sm:mt-[10vh] md:mt-[15vh] md:min-h-[70vh] lg:min-h-[80vh] xl:min-h-[100vh]">
-        <div class="w-full h-full bg-black bg-opacity-30 absolute z-[1]">
+        <div class="w-full h-full bg-black bg-opacity-0 absolute z-[1]">
         </div>
     </main>
     <section id="massage-thérapeutique " class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
@@ -84,7 +84,7 @@
         "url": "{{ url()->current() }}",
         "logo": "{{ asset('Images/Logo.webp') }}",
         "image": "{{ asset('Images/À propos Pic.webp') }}",
-        "telephone": "+212 661‑366383",
+        "telephone": "+41 79 574 95 25",
         "sameAs": [
             "https://web.facebook.com/said.rahati",
             "https://www.instagram.com/saidrahati",

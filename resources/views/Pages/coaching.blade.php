@@ -107,7 +107,7 @@
         "url": "{{ url()->current() }}",
         "logo": "{{ asset('Images/Logo.webp') }}",
         "image": "{{ asset('Images/À propos Pic.webp') }}",
-        "telephone": "+212 661‑366383",
+        "telephone": "+41 79 574 95 25",
         "sameAs": [
             "https://web.facebook.com/said.rahati",
             "https://www.instagram.com/saidrahati",

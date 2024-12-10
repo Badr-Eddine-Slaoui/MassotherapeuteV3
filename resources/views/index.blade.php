@@ -14,7 +14,7 @@
 
 @section('content')
     <main class="w-full mt-[15vh] min-h-[150vh] bg-HomeBg bg-no-repeat bg-center bg-cover relative xs:min-h-[40vh] xs:mt-[6vh] sm:min-h-[60vh] sm:mt-[10vh] md:mt-[15vh] md:min-h-[70vh] lg:min-h-[80vh] xl:min-h-[100vh]">
-        <div class="w-full h-full bg-black bg-opacity-50 absolute z-[1] flex items-center justify-center">
+        <div class="w-full h-full bg-black bg-opacity-10  absolute z-[1] flex items-center justify-center">
             <div class="text-white w-3/5 mx-auto text-center xs:w-8/12 sm:w-3/5 md:w-8/12 xl:w-3/5">
                 <div class="flex h-[35vh] mt-40 xs:h-[25vh] xs:mt-0 sm:h-[36vh] md:h-[35vh] md:mt-16">
                     <h1 class="text-[3.375em] w-2/3 font-[300] leading-[1.23] flex justify-center items-center xs:text-[0.8em] sm:text-[1.6em] md:text-[2em] lg:text-[3em]">MASSOTHÉRAPEUTE COACH SPORTIF</h1>
@@ -167,7 +167,7 @@
         "url": "{{ url()->current() }}",
         "logo": "{{ asset('Images/Logo.webp') }}",
         "image": "{{ asset('Images/À propos Pic.webp') }}",
-        "telephone": "+212 661‑366383",
+        "telephone": "+41 79 574 95 25",
         "sameAs": [
             "https://web.facebook.com/said.rahati",
             "https://www.instagram.com/saidrahati",
