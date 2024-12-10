@@ -66,7 +66,7 @@
                             <p class="text-[18px] font-[300] xs:text-[8px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Le massage thérapeutique combine des techniques comme l’effleurage et le pétrissage pour agir en profondeur sur les muscles, tendons, et fascias. Il est utilisé pour soulager des douleurs ciblées et rétablir l'équilibre du corps.</p>
                         </div>
                     </div>
-                    <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-thérapeutique">
+                    <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-therapeutique">
                         <svg class="w-1/12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="search" viewBox="0 0 512 545.5"><path class="fill-white" d="M304 80c88.176 0 160 71.824 160 160s-71.824 160-160 160c-38.32 0-73.41-13.423-101-36L75.5 491.5l-23-23L180 341c-22.577-27.59-36-62.68-36-101 0-88.176 71.824-160 160-160zm0 32c-70.882 0-128 57.118-128 128s57.118 128 128 128 128-57.118 128-128-57.118-128-128-128z"></path></svg>
                     </a>
                 </div>

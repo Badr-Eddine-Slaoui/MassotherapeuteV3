@@ -17,7 +17,7 @@
         <div class="w-full h-full bg-black bg-opacity-0 absolute z-[1]">
         </div>
     </main>
-    <section id="massage-thérapeutique " class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
+    <section id="massage-therapeutique" class="w-full pt-1 mt-[15vh] pb-20 xs:pb-5 xs:min-h-[50vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
         <div class="w-5/6 mx-auto">
             <h1 class="font-[300] text-6xl mt-10 xs:text-xs xs:mb-14 md:text-2xl lg:text-3xl">Massothérapie</h1>
             <div class="w-full grid grid-rows-1 grid-cols-1 gap-y-32 gap-x-8 xs:my-5 xs:flex xs:flex-col-reverse xs:gap-y-5 sm:grid sm:grid-cols-1 md:my-32">
