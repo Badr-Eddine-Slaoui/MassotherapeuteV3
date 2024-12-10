@@ -32,7 +32,7 @@
 
     </head>
     <body>
-        <header class="h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
+        <header class="w-full h-[15vh] bg-white flex items-center justify-between px-20 py-10 fixed top-0 left-0 z-[2] shadow-center-gray xs:px-4 xs:py-0 xs:h-[6vh] sm:px-12 sm:h-[10vh] md:h-[15vh] md:px-16">
             <div class="w-1/5">
                 <a loading="lazy" href="{{ route('home') }}"><img class="w-full" src="{{ asset('Images/Logo.webp') }}" alt="Logo"></a>
             </div>
