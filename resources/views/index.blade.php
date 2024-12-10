@@ -34,23 +34,18 @@
             <div class="w-full rounded-xl p-20 shadow-center-gray text-justify xs:p-4 sm:w-[125%] sm:p-5 md:w-[120%] md:p-6 lg:p-16 xl:w-[110%]">
                 <p class="text-[18px] font-bold xs:text-[8px] sm:text-[12px] md:text-[16px]">À propos</p>
                 <p class="text-5xl my-5 font-[300] xs:text-xs sm:text-xl md:text-3xl lg:text-4xl">Said Rahati</p>
-                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[8px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Plus de 20ans d'expérience professionnelle en tant que massothèrapeute et coach personnel dans différents centre de santé et clubs de fitness en Suisse</p>
+                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[8px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Plus de 20 ans d'expérience professionnelle en tant que masseur-thérapeute et coach personnel dans différents centres de santé et clubs de fitness en Suisse.</p>
                 <p class="text-[18px] font-bold xs:text-[8px] sm:text-[12px] md:text-[16px]">FORMATION</p>
-                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[8px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">
-
-                    Certifié par la fédération internationale des sports aérobics et fitness au module FISAF "Personal Trainer" en Suisse
-
-                    Diplômé de académie de thérapeute à l’école esclre monde à Genève
-                    Formé au cours collectifs Les Mills Body Balance, Body Combat et Body Pump
-
+                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[8px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Certifié par la Fédération Internationale des Sports Aérobics et Fitness (FISAF) au module "Personal Trainer" en Suisse.
+                    Diplômé de l'Académie des Thérapeutes à l’École Esclre Monde à Genève.
+                    Formé aux cours collectifs Les Mills : Body Balance, Body Combat et Body Pump.
                 </p>
                 <p class="text-[18px] font-bold xs:text-[8px] sm:text-[12px] md:text-[16px]">EXPÉRIENCE</p>
-                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[8px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">
-                    18 an de pratique le football professionnel au Maroc /france/ suisse
-                    Champion de titre suisse de body fitness
-                    3 em place au championnat du monde amateur
-                    Deux
-                    Deuxième place au championnat international de massage thérapeutique en suisse</p>
+                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[8px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">18 ans de pratique du football professionnel au Maroc, en France et en Suisse.
+                    Champion de Suisse en Body Fitness.
+                    3e place au Championnat du Monde Amateur.
+                    2e place au Championnat International de Massage Thérapeutique en Suisse.
+                </p>
             </div>
             <div class="flex justify-center items-center relative">
                 <img class="w-full rounded-xl shadow-center-gray xs:-mt-4 xs:w-3/4 sm:absolute sm:mt-0 sm:w-full sm:left-12 md:left-12 xl:left-5 xl:w-4/6" src="{{ asset('Images/Said-Rahati.webp') }}" alt="Said Rahati Pic">
