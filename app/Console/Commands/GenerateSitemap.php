@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Facades\Route;
 use Spatie\Sitemap\Sitemap;
 use Spatie\Sitemap\Tags\Url;
 
@@ -18,33 +19,51 @@ class GenerateSitemap extends Command
 
     public function handle()
     {
-        // Create a new sitemap
+        // Create a new sitemap instance
         $sitemap = Sitemap::create();
 
-        // Add static URLs (for example the homepage and other pages)
-        $sitemap->add(Url::create('/')
-            ->setLastModificationDate(now())
-            ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
-            ->setPriority(1.0));
+        // Get all routes and filter for GET routes only
+        $routes = collect(Route::getRoutes())->filter(function ($route) {
+            return in_array('GET', $route->methods()) && !$route->getName() == null;
+        });
 
-        $sitemap->add(Url::create('coaching')
-            ->setLastModificationDate(now())
-            ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
-            ->setPriority(1.0));
+        foreach ($routes as $route) {
+            $uri = $route->uri();
 
-        $sitemap->add(Url::create('massotherapie')
-            ->setLastModificationDate(now())
-            ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
-            ->setPriority(1.0));
+            // Exclude specific routes if necessary (e.g., API or store routes)
+            if (str_contains($uri, 'storage') || str_contains($uri, 'up')) {
+                continue;
+            }
 
-        $sitemap->add(Url::create('contact')
-            ->setLastModificationDate(now())
-            ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
-            ->setPriority(0.7));
+            $sitemap->add(
+                Url::create(url($uri))
+                    ->setLastModificationDate(now())
+                    ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                    ->setPriority($this->getPriority($uri))
+            );
+        }
 
-        // Store the sitemap in the public directory
+        // Write the sitemap to the public directory
         $sitemap->writeToFile(public_path('sitemap.xml'));
 
         $this->info('Sitemap generated successfully!');
+    }
+
+    /**
+     * Get priority based on URI.
+     *
+     * @param string $uri
+     * @return float
+     */
+    private function getPriority(string $uri): float
+    {
+        // Adjust priorities based on your logic
+        if ($uri === '/') {
+            return 1.0;
+        } elseif (str_contains($uri, 'contact') || str_contains($uri, 'inscription')) {
+            return 0.7;
+        }
+
+        return 0.8; // Default priority
     }
 }
