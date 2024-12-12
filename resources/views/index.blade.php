@@ -14,10 +14,10 @@
 
 @section('content')
     <main class="w-full mt-[15vh] bg-HomeBg bg-no-repeat bg-bottom bg-cover relative min-h-[100vh] xs:mt-[6vh] sm:mt-[10vh] md:mt-[15vh]">
-        <div class="w-full h-full bg-black bg-opacity-15 text-white absolute z-[1] flex items-center justify-center">
+        <div class="w-full h-full bg-black bg-opacity-20 text-white absolute z-[1] flex items-center justify-center">
             <div class="w-full text-center">
                 <div class="w-full h-[35vh] mt-40 xs:h-[25vh] xs:mt-0 sm:h-[36vh] sm:flex sm:justify-center md:h-[35vh]">
-                    <h1 class="font-bold w-8/12 mx-auto leading-[1.23] flex justify-center items-center text-[1.8em] mt-32 sm:w-6/12 sm:mx-0 sm:mt-0 sm:text-[1.6em] md:w-7/12 md:text-[2.4em] lg:text-[3em] lg:w-6/12 xl:w-4/12">MASSOTHÉRAPEUTE COACH SPORTIF</h1>
+                    <h1 class="font-bold w-8/12 mx-auto leading-[1.23] flex justify-center items-center text-[1.8em] -mt-80 sm:w-6/12 sm:mx-0 sm:mt-0 sm:text-[1.6em] md:w-7/12 md:text-[2.4em] lg:text-[3em] lg:w-6/12 xl:w-4/12">MASSOTHÉRAPEUTE COACH SPORTIF</h1>
                     <div class="w-5/12 my-auto mx-auto sm:w-3/12 sm:mx-0">
                         <button class="block font-semibold mx-auto bg-[#03a9f4] py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center mt-10 xs:text-[9px] xs:py-1 xs:px-1 xs:mb-5 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a loading="lazy" href="{{ route('massotherapie') }}">- massothérapie -</a></button>
                         <button class="block font-semibold mx-auto border-2 border-white bg-black bg-opacity-40  py-3 px-7 text-[18px] rounded-full my-5 uppercase shadow-center xs:text-[9px] xs:py-1 xs:px-1 xs:my-2 sm:text-[11px] sm:py-1 sm:px-3 md:text-[14px] md:px-5 md:py-2 md:my-5 lg:text-[16px] lg:my-5"><a loading="lazy" href="{{ route('contact') }}">- contactez-nous -</a></button>
