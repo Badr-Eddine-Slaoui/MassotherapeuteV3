@@ -53,6 +53,43 @@
     </section>
     <section class="w-full min-h-screen mx-auto flex justify-center items-center py-20 bg-[#f5fafd] xs:pt-0 sm:pt-20 md:pt-20">
         <div class="w-5/6 text-center">
+            <h2 class="text-[18px] uppercase text-left font-bold xs:ms-8 xs:text-[14px] xs:mt-12 sm:mt-0 sm:ms-11 sm:text-[14px] sm:mb-32 md:text-[16px] md:ms-12 lg:ms-24">Diplômes et Prix</h2>
+            <div class="grid grid-rows-1 grid-cols-2 gap-x-5 my-5 xs:w-full xs:m-auto xs:grid-cols-1 sm:grid-cols-2 sm:gap-y-5 md:grid-cols-2 md:gap-y-5">
+                <div class="text-center h-[40vh] relative xs:min-h-[20vh] xs:px-4 sm:min-h-[25vh] sm:px-6 md:min-h-[30vh] md:px-8 lg:px-10 lg:min-h-[35vh] xl:min-h-[40vh]">
+                    <div class="w-full h-full text-black flex items-center justify-center relative">
+                        <img class="w-full h-full object-contain" src="{{ asset("Images/Diplome/SKM_C30824121218040-1.png") }}" alt="">
+                    </div>
+                </div>
+                <div class="text-center h-[40vh] relative xs:min-h-[20vh] sm:min-h-[25vh] sm:px-6 md:min-h-[30vh] md:px-8 lg:px-10 lg:min-h-[35vh] xl:min-h-[40vh]">
+                    <div class="w-full h-full text-black flex items-center justify-center relative">
+                        <img class="w-full h-full object-contain" src="{{ asset("Images/Diplome/SKM_C30824121218030-1.png") }}" alt="">
+                    </div>
+                </div>
+                <div class="text-center h-[40vh] relative xs:min-h-[20vh] sm:min-h-[25vh] sm:px-6 md:min-h-[30vh] md:px-8 lg:px-10 lg:min-h-[35vh] xl:min-h-[40vh]">
+                    <div class="w-full h-full text-black flex items-center justify-center relative">
+                        <img class="w-full h-full object-contain" src="{{ asset("Images/Diplome/SKM_C30824121218010-1.png") }}" alt="">
+                    </div>
+                </div>
+                <div class="text-center h-[40vh] relative xs:min-h-[20vh] sm:min-h-[25vh] sm:px-6 md:min-h-[30vh] md:px-8 lg:px-10 lg:min-h-[35vh] xl:min-h-[40vh]">
+                    <div class="w-full h-full text-black flex items-center justify-center relative">
+                        <img class="w-full h-full object-contain" src="{{ asset("Images/Diplome/SKM_C30824121218051-1.png") }}" alt="">
+                    </div>
+                </div>
+                <div class="text-center h-[40vh] relative xs:min-h-[20vh] sm:min-h-[25vh] sm:px-6 md:min-h-[30vh] md:px-8 lg:px-10 lg:min-h-[35vh] xl:min-h-[40vh]">
+                    <div class="w-full h-full text-black flex items-center justify-center relative">
+                        <img class="w-full h-full object-contain" src="{{ asset("Images/Diplome/SKM_C30824121218050-1.png") }}" alt="">
+                    </div>
+                </div>
+                <div class="text-center h-[40vh] relative xs:min-h-[20vh] sm:min-h-[25vh] sm:px-6 md:min-h-[30vh] md:px-8 lg:px-10 lg:min-h-[35vh] xl:min-h-[40vh]">
+                    <div class="w-full h-full text-black flex items-center justify-center relative">
+                        <img class="w-full h-full object-contain" src="{{ asset("Images/Diplome/SKM_C30824121218041-1.png") }}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-full min-h-screen mx-auto flex justify-center items-center py-20 bg-[#f5fafd] xs:pt-0 sm:pt-20 md:pt-20">
+        <div class="w-5/6 text-center">
             <h2 class="text-5xl my-5 font-bold xs:text-sm sm:text-xl md:text-3xl lg:text-4xl">Massothérapie</h2>
             <p class="text-[20px] my-10 xs:text-[14px] sm:text-[12px] md:text-[16px] lg:text-[18px]">
                 Voici en quelques lignes les séances de massothérapie que je vous propose. N'hésitez pas à cliquer pour découvrir davantage, et à me contacter pour plus d'informations.</p>
@@ -98,7 +135,7 @@
                         <div class="w-11/12">
                             <p class="text-[18px] font-bold capitalize xs:text-[14px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Massage</p>
                             <p class="text-[18px] font-bold uppercase tracking-[0.3em] xs:text-[14px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">anti-stress</p>
-                            <p class="text-[18px] font-[300] xs:text-[14px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Ce massage se concentre sur les points de tension dans les muscles, soulageant les douleurs musculaires et articulaires. Particulièrement bénéfique pour les personnes souffrant de douleurs chroniques, il relâche les "nœuds" musculaires tenaces</p>
+                            <p class="text-[18px] font-[300] xs:text-[14px] sm:text-[11px] md:text-[12px] lg:text-[16px]">Ce massage se concentre sur les points de tension dans les muscles, soulageant les douleurs musculaires et articulaires. Particulièrement bénéfique pour les personnes souffrant de douleurs chroniques, il relâche les "nœuds" musculaires tenaces.</p>
                         </div>
                     </div>
                     <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('massotherapie') }}#massage-anti-stress">
@@ -127,7 +164,7 @@
                         <div class="w-11/12">
                             <p class="text-[18px] font-bold capitalize xs:text-[14px] sm:text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px]">Prise</p>
                             <p class="text-[18px] font-bold uppercase tracking-[0.3em] xs:text-[14px] xs:mb-1 sm:text-[14px] sm:mb-3 md:text-[18px] md:mb-4 lg:text-[20px] lg:mb-5 xl:text-[24px]">de masse</p>
-                            <p class="text-[18px] font-[300] xs:text-[14px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La prise de masse musculaire nécessite un entraînement régulier et un apport calorique suffisant, soutenus par un programme nutritionnel et d'entraînement adaptés </p>
+                            <p class="text-[18px] font-[300] xs:text-[14px] sm:text-[11px] md:text-[12px] lg:text-[16px]">La prise de masse musculaire nécessite un entraînement régulier et un apport calorique suffisant, soutenus par un programme nutritionnel et d'entraînement adaptés.</p>
                         </div>
                     </div>
                     <a class="w-full h-full bg-cyan-400 absolute top-0 left-0 bg-opacity-60 flex justify-center items-center opacity-0 cursor-pointer hover:opacity-100 transition-opacity duration-500" href="{{ route('coaching') }}#prise-masse">
