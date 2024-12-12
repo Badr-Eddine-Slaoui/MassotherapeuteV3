@@ -25,7 +25,7 @@
                         <div class="grid grid-rows-1 grid-cols-4 gap-x-4">
                             <a class="relative" href="tel:+41795749525">
                                 <i class="text-[26px] w-[8vh] h-[8vh] border-2 rounded-full fa-solid fa-phone flex justify-center items-center m-auto my-5 xs:text-[10px] xs:border xs:w-[4vh] xs:h-[4vh] sm:text-[11px] sm:border sm:w-[4vh] sm:h-[4vh] md:text-[14px] md:border-2 md:w-[5vh] md:h-[5vh] lg:text-[24px] lg:w-[7vh] lg:h-[7vh]"></i>
-                                <img loading="lazy" class="absolute right-0 w-1/2 xs:bottom-4 lg:bottom-3" src="{{ asset('Images/switzerland.png') }}" alt="">
+                                <img loading="lazy" class="absolute right-0 w-1/2 xs:bottom-4 lg:bottom-3" src="{{ asset('Images/switzerland.webp') }}" alt="">
                             </a>
                             <a class="relative" href="tel:+212615450093">
                                 <i class="text-[26px] w-[8vh] h-[8vh] border-2 rounded-full fa-solid fa-phone flex justify-center items-center m-auto my-5 xs:text-[10px] xs:border xs:w-[4vh] xs:h-[4vh] sm:text-[11px] sm:border sm:w-[4vh] sm:h-[4vh] md:text-[14px] md:border-2 md:w-[5vh] md:h-[5vh] lg:text-[24px] lg:w-[7vh] lg:h-[7vh]"></i>
