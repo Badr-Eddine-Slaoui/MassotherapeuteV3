@@ -31,16 +31,16 @@
     <section id="apropos" class="w-4/5 my-10 mx-auto flex justify-center items-center py-20 xs:py-0 xs:min-h-[50vh] sm:min-h-[65vh] md:min-h-[80vh] lg:min-h-[95vh] xl:min-h-screen">
         <div class="w-full grid grid-rows-1 xs:grid-cols-1 sm:grid-cols-2">
             <div class="w-full p-20 shadow-center-gray text-justify xs:p-4 xs:rounded-t-xl sm:rounded-xl sm:w-[125%] sm:p-5 md:w-[120%] md:p-6 lg:p-16 xl:w-[110%]">
-                <p class="text-[18px] font-bold xs:text-[14px] sm:text-[12px] md:text-[16px]">À propos</p>
-                <p class="text-5xl my-5 font-[300] xs:text-sm sm:text-xl md:text-3xl lg:text-4xl">Said Rahati</p>
-                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[10px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Plus de 20 ans d'expérience professionnelle en tant que masseur-thérapeute et coach personnel dans différents centres de santé et clubs de fitness en Suisse.</p>
-                <p class="text-[18px] font-bold xs:text-[14px] sm:text-[12px] md:text-[16px]">FORMATION</p>
-                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[10px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Certifié par la Fédération Internationale des Sports Aérobics et Fitness (FISAF) au module "Personal Trainer" en Suisse.
+                <p class="text-[18px] font-bold xs:text-[14px] sm:text-[14px] md:text-[16px]">À propos</p>
+                <p class="text-5xl my-5 font-[300] xs:text-[14px] sm:text-xl md:text-3xl lg:text-4xl">Said Rahati</p>
+                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[14px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Plus de 20 ans d'expérience professionnelle en tant que masseur-thérapeute et coach personnel dans différents centres de santé et clubs de fitness en Suisse.</p>
+                <p class="text-[18px] font-bold xs:text-[14px] sm:text-[14px] md:text-[16px]">FORMATION</p>
+                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[14px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">Certifié par la Fédération Internationale des Sports Aérobics et Fitness (FISAF) au module "Personal Trainer" en Suisse.
                     Diplômé de l'Académie des Thérapeutes à l’École Esclre Monde à Genève.
                     Formé aux cours collectifs Les Mills : Body Balance, Body Combat et Body Pump.
                 </p>
-                <p class="text-[18px] font-bold xs:text-[14px] sm:text-[12px] md:text-[16px]">EXPÉRIENCE</p>
-                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[10px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">18 ans de pratique du football professionnel au Maroc, en France et en Suisse.
+                <p class="text-[18px] font-bold xs:text-[14px] sm:text-[14px] md:text-[16px]">EXPÉRIENCE</p>
+                <p class="text-[16px] text-[#46707f] leading-[1.6] my-2 xs:text-[14px] xs:leading-[1.1] sm:text-[11px] sm:leading-[1.6] md:text-[14px] md:leading-[1.6]">18 ans de pratique du football professionnel au Maroc, en France et en Suisse.
                     Champion de Suisse en Body Fitness.
                     3e place au Championnat du Monde Amateur.
                     2e place au Championnat International de Massage Thérapeutique en Suisse.
