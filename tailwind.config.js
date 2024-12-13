@@ -12,7 +12,7 @@ export default {
             }
         },
         backgroundImage: {
-            'HomeBg': "url('/public/Images/Accueil.jpg')",
+            'HomeBg': "url('/public/Images/Accueil.webp')",
             'CoachingBg': "url('/public/Images/coaching.webp')",
             'MassotherapieBg': "url('/public/Images/massotherapie.webp')",
         },
