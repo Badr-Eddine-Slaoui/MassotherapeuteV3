@@ -13,6 +13,7 @@ export default {
         },
         backgroundImage: {
             'HomeBg': "url('/public/Images/Accueil.webp')",
+            'HomeBgMobile': "url('/public/Images/Accueil.jpg')",
             'CoachingBg': "url('/public/Images/coaching.webp')",
             'MassotherapieBg': "url('/public/Images/massotherapie.webp')",
         },
