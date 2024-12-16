@@ -13,7 +13,7 @@
 @section('title', 'Accueil')
 
 @section('content')
-    <main class="w-full mt-[15vh] bg-HomeBgMobile bg-no-repeat bg-bottom bg-cover relative min-h-[100vh] xs:mt-[6vh] sm:mt-[10vh] sm:bg-HomeBg md:mt-[15vh]">
+    <main class="w-full mt-[15vh] bg-HomeBgMobile bg-no-repeat bg-bottom bg-cover relative min-h-[100vh] xs:mt-[6vh] sm:mt-[10vh] sm:bg-center sm:bg-HomeBg md:mt-[15vh]">
         <div class="w-full h-full bg-black bg-opacity-40 text-white absolute z-[1] sm:flex sm:items-center sm:justify-center">
             <div class="w-full h-full text-center">
                 <h2 class="w-1/2 text-xl font-bold m-auto leading-[1.23] uppercase mt-5 sm:text-sm sm:mt-0 md:text-xl lg:text-3xl lg:mt-44">Said Rahati</h2>
