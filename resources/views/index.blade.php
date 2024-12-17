@@ -50,7 +50,7 @@
                 <img class="w-full shadow-center-gray xs:rounded-b-xl sm:rounded-xl sm:absolute sm:mt-0 sm:w-full sm:left-12 md:left-12 xl:left-5 xl:w-4/6" src="{{ asset('Images/Said-Rahati.webp') }}" alt="Said Rahati Pic">
             </div>
         </div>
-    </section>
+    </section>{{--
     <section class="w-full min-h-screen mx-auto flex justify-center items-center py-20 bg-[#f5fafd] xs:pt-0 sm:pt-20 md:pt-20">
         <div class="w-5/6 text-center">
             <h2 class="text-[18px] uppercase text-left font-bold xs:ms-8 xs:text-[14px] xs:mt-12 sm:mt-0 sm:ms-11 sm:text-[14px] sm:mb-32 md:text-[16px] md:ms-12 lg:ms-24">Diplômes et Prix</h2>
@@ -87,7 +87,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     <section class="w-full min-h-screen mx-auto flex justify-center items-center py-20 bg-[#f5fafd] xs:pt-0 sm:pt-20 md:pt-20">
         <div class="w-5/6 text-center">
             <h2 class="text-5xl my-5 font-bold xs:text-sm sm:text-xl md:text-3xl lg:text-4xl">Massothérapie</h2>
